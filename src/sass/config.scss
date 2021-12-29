@@ -6,7 +6,15 @@
 @import "utilities/functions.sass";
 @import "utilities/derived-variables.sass";
 
-$colors: ();
+$colors: mergeColorMaps(
+  (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert)
+  ),
+  $custom-colors
+);
 
 // utilities
 @import "utilities/animations.sass";
