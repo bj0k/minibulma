@@ -1,6 +1,6 @@
 {
   "name": "bulma-minimal-bundle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Minimalistic build for Bulma CSS framework",
   "scripts": {
     "build": "sass -q -I node_modules/bulma/sass src/sass/config.scss:dist/bulma.css",
@@ -11,10 +11,8 @@
   "keywords": [],
   "author": "bj <g4uohr79x@mozmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "bulma": "^0.9.3"
-  },
   "devDependencies": {
+    "bulma": "^0.9.3",
     "sass": "^1.45.1"
   }
 }
