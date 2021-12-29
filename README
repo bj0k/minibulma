@@ -1,0 +1,10 @@
+# minibulma
+
+Bulma without color variations and helper classes
+
+## Build
+
+```bash
+$ npm i
+$ npm run build:all
+```
