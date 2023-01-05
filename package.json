@@ -7,12 +7,17 @@
     "build:min": "sass -q --style compressed -I node_modules/bulma/sass src/sass/config.scss:dist/bulma.min.css",
     "build:all": "npm run build && npm run build:min"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "bj <g4uohr79x@mozmail.com>",
   "license": "MIT",
   "devDependencies": {
     "bulma": "^0.9.3",
     "sass": "^1.45.1"
+  },
+  "volta": {
+    "node": "18.12.1"
   }
 }
